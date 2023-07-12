@@ -1,0 +1,13 @@
+{
+    "env": {
+		"development": {
+			"themes": [ "./one-theme" ],
+            "port": 3333,
+            "config": {
+                "WP_DEBUG": true,
+                "SCRIPT_DEBUG": true,
+                "WP_TESTS_TITLE": "我的主题"
+			}
+		}
+	}
+}

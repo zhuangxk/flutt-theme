@@ -1,0 +1,14 @@
+{
+  "name": "flutt-theme",
+  "version": "1.0.0",
+  "description": "flutt lashes theme",
+  "main": "index.js",
+  "scripts": {
+    "env": "wp-env"
+  },
+  "author": "toko",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^8.3.0"
+  }
+}
