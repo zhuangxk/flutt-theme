@@ -1,8 +1,11 @@
 {
     "env": {
 		"development": {
-			"themes": [ "./one-theme" ],
+			"themes": [ "./one-theme" , "./Aurelius"],
             "port": 3333,
+            "mappings": {
+                "wp-content/plugins/my-test-plugin": "./test-plugin"
+            },
             "config": {
                 "WP_DEBUG": true,
                 "SCRIPT_DEBUG": true,
